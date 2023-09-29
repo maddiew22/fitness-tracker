@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="22G91" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class">
+        <attribute name="calories" attributeType="Integer 32" minValueString="0" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="717968460" usesScalarValueType="NO"/>
+        <attribute name="duration" attributeType="Integer 32" minValueString="0" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="type" attributeType="String" defaultValueString="Other" customClassName="WorkoutType"/>
+    </entity>
+    <entity name="Goals" representedClassName="Goals" syncable="YES" codeGenerationType="class">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="718809360" usesScalarValueType="NO"/>
+        <attribute name="goalVal" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="progress" attributeType="Double" minValueString="0" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stat" attributeType="String" defaultValueString="Calories"/>
+        <attribute name="timeline" attributeType="Integer 32" minValueString="0" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timelineUnit" attributeType="String" defaultValueString="Month(s)"/>
+        <attribute name="workout" attributeType="String" defaultValueString="Exercise"/>
+    </entity>
+</model>

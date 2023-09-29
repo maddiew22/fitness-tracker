@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B3C4192AC7295000007175 /* FitifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4182AC7295000007175 /* FitifyApp.swift */; };
+		09B3C41B2AC7295000007175 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C41A2AC7295000007175 /* HomeView.swift */; };
+		09B3C41D2AC7295200007175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B3C41C2AC7295200007175 /* Assets.xcassets */; };
+		09B3C4202AC7295200007175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B3C41F2AC7295200007175 /* Preview Assets.xcassets */; };
+		09B3C4272ACAF2C100007175 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4262ACAF2C100007175 /* Extensions.swift */; };
+		09B3C4292ACAF56C00007175 /* WorkoutIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4282ACAF56C00007175 /* WorkoutIcon.swift */; };
+		09B3C4352ACB163500007175 /* DailyMinutesChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4342ACB163500007175 /* DailyMinutesChart.swift */; };
+		09B3C45A2ACB512A00007175 /* WorkoutModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4582ACB512A00007175 /* WorkoutModel.xcdatamodeld */; };
+		09B3C45C2ACB51E900007175 /* WorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C45B2ACB51E900007175 /* WorkoutController.swift */; };
+		09B3C4602ACB568E00007175 /* RecentWorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C45F2ACB568E00007175 /* RecentWorkoutsView.swift */; };
+		09B3C4622ACB56CB00007175 /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4612ACB56CB00007175 /* AddWorkoutView.swift */; };
+		09B3C46A2ACF2C5D00007175 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4692ACF2C5D00007175 /* TabsView.swift */; };
+		09B3C46C2ACF2C9E00007175 /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C46B2ACF2C9E00007175 /* TrendsView.swift */; };
+		09B3C4702ACF30CE00007175 /* RunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C46F2ACF30CE00007175 /* RunView.swift */; };
+		09B3C4722ACF30DB00007175 /* WalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4712ACF30DB00007175 /* WalkView.swift */; };
+		09B3C4742ACF31D600007175 /* StrengthTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4732ACF31D600007175 /* StrengthTrainingView.swift */; };
+		09B3C4762ACF427600007175 /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4752ACF427600007175 /* WorkoutListView.swift */; };
+		09B3C47A2AD02DAA00007175 /* TrendsChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4792AD02DAA00007175 /* TrendsChartView.swift */; };
+		09B3C47C2AD07C7B00007175 /* WorkoutSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C47B2AD07C7B00007175 /* WorkoutSummaryView.swift */; };
+		09B3C47F2AD07D3000007175 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C47E2AD07D3000007175 /* GoalsView.swift */; };
+		09B3C4812AD0882B00007175 /* WorkoutSummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4802AD0882B00007175 /* WorkoutSummaryCard.swift */; };
+		09B3C4862AD0990700007175 /* GoalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4852AD0990700007175 /* GoalController.swift */; };
+		09B3C4892AD099B800007175 /* GoalModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4872AD099B800007175 /* GoalModel.xcdatamodeld */; };
+		09B3C48B2AD09B9600007175 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C48A2AD09B9600007175 /* AddGoalView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B3C4152AC7295000007175 /* Fitify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B3C4182AC7295000007175 /* FitifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitifyApp.swift; sourceTree = "<group>"; };
+		09B3C41A2AC7295000007175 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		09B3C41C2AC7295200007175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09B3C41F2AC7295200007175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09B3C4262ACAF2C100007175 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		09B3C4282ACAF56C00007175 /* WorkoutIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutIcon.swift; sourceTree = "<group>"; };
+		09B3C4342ACB163500007175 /* DailyMinutesChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMinutesChart.swift; sourceTree = "<group>"; };
+		09B3C4592ACB512A00007175 /* WorkoutModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkoutModel.xcdatamodel; sourceTree = "<group>"; };
+		09B3C45B2ACB51E900007175 /* WorkoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutController.swift; sourceTree = "<group>"; };
+		09B3C45F2ACB568E00007175 /* RecentWorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentWorkoutsView.swift; sourceTree = "<group>"; };
+		09B3C4612ACB56CB00007175 /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+		09B3C4692ACF2C5D00007175 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		09B3C46B2ACF2C9E00007175 /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
+		09B3C46F2ACF30CE00007175 /* RunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunView.swift; sourceTree = "<group>"; };
+		09B3C4712ACF30DB00007175 /* WalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkView.swift; sourceTree = "<group>"; };
+		09B3C4732ACF31D600007175 /* StrengthTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthTrainingView.swift; sourceTree = "<group>"; };
+		09B3C4752ACF427600007175 /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		09B3C4792AD02DAA00007175 /* TrendsChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsChartView.swift; sourceTree = "<group>"; };
+		09B3C47B2AD07C7B00007175 /* WorkoutSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryView.swift; sourceTree = "<group>"; };
+		09B3C47E2AD07D3000007175 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		09B3C4802AD0882B00007175 /* WorkoutSummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryCard.swift; sourceTree = "<group>"; };
+		09B3C4852AD0990700007175 /* GoalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalController.swift; sourceTree = "<group>"; };
+		09B3C4882AD099B800007175 /* GoalModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalModel.xcdatamodel; sourceTree = "<group>"; };
+		09B3C48A2AD09B9600007175 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B3C4122AC7295000007175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B3C40C2AC7295000007175 = {
+			isa = PBXGroup;
+			children = (
+				09B3C4172AC7295000007175 /* Fitify */,
+				09B3C4162AC7295000007175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09B3C4162AC7295000007175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B3C4152AC7295000007175 /* Fitify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B3C4172AC7295000007175 /* Fitify */ = {
+			isa = PBXGroup;
+			children = (
+				09B3C4182AC7295000007175 /* FitifyApp.swift */,
+				09B3C45D2ACB566400007175 /* Views */,
+				09B3C4572ACB510F00007175 /* DataModel */,
+				09B3C4802AD0882B00007175 /* WorkoutSummaryCard.swift */,
+				09B3C47B2AD07C7B00007175 /* WorkoutSummaryView.swift */,
+				09B3C4262ACAF2C100007175 /* Extensions.swift */,
+				09B3C41C2AC7295200007175 /* Assets.xcassets */,
+				09B3C41E2AC7295200007175 /* Preview Content */,
+			);
+			path = Fitify;
+			sourceTree = "<group>";
+		};
+		09B3C41E2AC7295200007175 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09B3C41F2AC7295200007175 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09B3C4572ACB510F00007175 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				09B3C4582ACB512A00007175 /* WorkoutModel.xcdatamodeld */,
+				09B3C45B2ACB51E900007175 /* WorkoutController.swift */,
+				09B3C4282ACAF56C00007175 /* WorkoutIcon.swift */,
+				09B3C4872AD099B800007175 /* GoalModel.xcdatamodeld */,
+				09B3C4852AD0990700007175 /* GoalController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		09B3C45D2ACB566400007175 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09B3C4692ACF2C5D00007175 /* TabsView.swift */,
+				09B3C4772AD02D2A00007175 /* Home Page */,
+				09B3C4782AD02D6300007175 /* Trends Page */,
+				09B3C47D2AD07D1D00007175 /* Goals Page */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09B3C4772AD02D2A00007175 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				09B3C4342ACB163500007175 /* DailyMinutesChart.swift */,
+				09B3C41A2AC7295000007175 /* HomeView.swift */,
+				09B3C45F2ACB568E00007175 /* RecentWorkoutsView.swift */,
+				09B3C4612ACB56CB00007175 /* AddWorkoutView.swift */,
+				09B3C4752ACF427600007175 /* WorkoutListView.swift */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		09B3C4782AD02D6300007175 /* Trends Page */ = {
+			isa = PBXGroup;
+			children = (
+				09B3C46B2ACF2C9E00007175 /* TrendsView.swift */,
+				09B3C46F2ACF30CE00007175 /* RunView.swift */,
+				09B3C4792AD02DAA00007175 /* TrendsChartView.swift */,
+				09B3C4712ACF30DB00007175 /* WalkView.swift */,
+				09B3C4732ACF31D600007175 /* StrengthTrainingView.swift */,
+			);
+			path = "Trends Page";
+			sourceTree = "<group>";
+		};
+		09B3C47D2AD07D1D00007175 /* Goals Page */ = {
+			isa = PBXGroup;
+			children = (
+				09B3C47E2AD07D3000007175 /* GoalsView.swift */,
+				09B3C48A2AD09B9600007175 /* AddGoalView.swift */,
+			);
+			path = "Goals Page";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09B3C4142AC7295000007175 /* Fitify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B3C4232AC7295200007175 /* Build configuration list for PBXNativeTarget "Fitify" */;
+			buildPhases = (
+				09B3C4112AC7295000007175 /* Sources */,
+				09B3C4122AC7295000007175 /* Frameworks */,
+				09B3C4132AC7295000007175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitify;
+			productName = Fitify;
+			productReference = 09B3C4152AC7295000007175 /* Fitify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B3C40D2AC7295000007175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					09B3C4142AC7295000007175 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 09B3C4102AC7295000007175 /* Build configuration list for PBXProject "Fitify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09B3C40C2AC7295000007175;
+			productRefGroup = 09B3C4162AC7295000007175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B3C4142AC7295000007175 /* Fitify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B3C4132AC7295000007175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B3C4202AC7295200007175 /* Preview Assets.xcassets in Resources */,
+				09B3C41D2AC7295200007175 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B3C4112AC7295000007175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B3C4622ACB56CB00007175 /* AddWorkoutView.swift in Sources */,
+				09B3C45C2ACB51E900007175 /* WorkoutController.swift in Sources */,
+				09B3C47F2AD07D3000007175 /* GoalsView.swift in Sources */,
+				09B3C41B2AC7295000007175 /* HomeView.swift in Sources */,
+				09B3C4292ACAF56C00007175 /* WorkoutIcon.swift in Sources */,
+				09B3C4722ACF30DB00007175 /* WalkView.swift in Sources */,
+				09B3C47C2AD07C7B00007175 /* WorkoutSummaryView.swift in Sources */,
+				09B3C4742ACF31D600007175 /* StrengthTrainingView.swift in Sources */,
+				09B3C45A2ACB512A00007175 /* WorkoutModel.xcdatamodeld in Sources */,
+				09B3C46A2ACF2C5D00007175 /* TabsView.swift in Sources */,
+				09B3C4272ACAF2C100007175 /* Extensions.swift in Sources */,
+				09B3C47A2AD02DAA00007175 /* TrendsChartView.swift in Sources */,
+				09B3C4892AD099B800007175 /* GoalModel.xcdatamodeld in Sources */,
+				09B3C48B2AD09B9600007175 /* AddGoalView.swift in Sources */,
+				09B3C4762ACF427600007175 /* WorkoutListView.swift in Sources */,
+				09B3C4602ACB568E00007175 /* RecentWorkoutsView.swift in Sources */,
+				09B3C4862AD0990700007175 /* GoalController.swift in Sources */,
+				09B3C4352ACB163500007175 /* DailyMinutesChart.swift in Sources */,
+				09B3C4192AC7295000007175 /* FitifyApp.swift in Sources */,
+				09B3C4702ACF30CE00007175 /* RunView.swift in Sources */,
+				09B3C46C2ACF2C9E00007175 /* TrendsView.swift in Sources */,
+				09B3C4812AD0882B00007175 /* WorkoutSummaryCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09B3C4212AC7295200007175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09B3C4222AC7295200007175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09B3C4242AC7295200007175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MaddieWong.Fitify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09B3C4252AC7295200007175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MaddieWong.Fitify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B3C4102AC7295000007175 /* Build configuration list for PBXProject "Fitify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B3C4212AC7295200007175 /* Debug */,
+				09B3C4222AC7295200007175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B3C4232AC7295200007175 /* Build configuration list for PBXNativeTarget "Fitify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B3C4242AC7295200007175 /* Debug */,
+				09B3C4252AC7295200007175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09B3C4582ACB512A00007175 /* WorkoutModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09B3C4592ACB512A00007175 /* WorkoutModel.xcdatamodel */,
+			);
+			currentVersion = 09B3C4592ACB512A00007175 /* WorkoutModel.xcdatamodel */;
+			path = WorkoutModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		09B3C4872AD099B800007175 /* GoalModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09B3C4882AD099B800007175 /* GoalModel.xcdatamodel */,
+			);
+			currentVersion = 09B3C4882AD099B800007175 /* GoalModel.xcdatamodel */;
+			path = GoalModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09B3C40D2AC7295000007175 /* Project object */;
+}

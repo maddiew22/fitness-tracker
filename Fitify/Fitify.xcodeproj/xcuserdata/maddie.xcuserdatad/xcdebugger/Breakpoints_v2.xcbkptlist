@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F4B488B0-9A16-4E64-A2C4-8E5460379501"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "112E4DB8-A799-4D3D-B398-2C0ABDD7540F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fitify/Views/Goals Page/GoalsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "calculateCurrentProgress(goal:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "112E4DB8-A799-4D3D-B398-2C0ABDD7540F - 1cb616c88214de6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fitify.GoalsView.calculateCurrentProgress(goal: Fitify.Goals) -&gt; Swift.Double"
+                  moduleName = "Fitify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maddie/Desktop/Projects/fitness-tracker/Fitify/Fitify/Views/Goals%20Page/GoalsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "3216">
+               </Location>
+               <Location
+                  uuid = "112E4DB8-A799-4D3D-B398-2C0ABDD7540F - 1cb616c88214de6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fitify.GoalsView.calculateCurrentProgress(goal: Fitify.Goals) -&gt; Swift.Double"
+                  moduleName = "Fitify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maddie/Desktop/Projects/fitness-tracker/Fitify/Fitify/Views/Goals%20Page/GoalsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "3080">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "717D2DDB-8C03-4BCE-82BC-EE2417DB16F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fitify/Views/Goals Page/GoalsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "calculateCurrentProgress(goal:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "717D2DDB-8C03-4BCE-82BC-EE2417DB16F0 - 1cb616c88214df01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fitify.GoalsView.calculateCurrentProgress(goal: Fitify.Goals) -&gt; Swift.Double"
+                  moduleName = "Fitify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maddie/Desktop/Projects/fitness-tracker/Fitify/Fitify/Views/Goals%20Page/GoalsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "4104">
+               </Location>
+               <Location
+                  uuid = "717D2DDB-8C03-4BCE-82BC-EE2417DB16F0 - 1cb616c88214df01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fitify.GoalsView.calculateCurrentProgress(goal: Fitify.Goals) -&gt; Swift.Double"
+                  moduleName = "Fitify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maddie/Desktop/Projects/fitness-tracker/Fitify/Fitify/Views/Goals%20Page/GoalsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "3464">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D0CC020-DC4D-4DB7-B2DA-84360FCE6315"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fitify/Views/Goals Page/GoalsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "calculateCurrentProgress(goal:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13792370-085E-4A16-B144-4014BF978C97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fitify/Views/Goals Page/GoalsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B027E8AD-087E-4C32-875D-A4FE45E6C9C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fitify/Views/Goals Page/GoalsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DF8C31E-50AC-4B02-A199-90335F764B73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fitify/DataModel/WorkoutController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "filteredWorkoutSearch(startDate:endDate:exercise:stat:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
