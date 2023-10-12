@@ -28,8 +28,6 @@
 		09B3C47C2AD07C7B00007175 /* WorkoutSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C47B2AD07C7B00007175 /* WorkoutSummaryView.swift */; };
 		09B3C47F2AD07D3000007175 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C47E2AD07D3000007175 /* GoalsView.swift */; };
 		09B3C4812AD0882B00007175 /* WorkoutSummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4802AD0882B00007175 /* WorkoutSummaryCard.swift */; };
-		09B3C4862AD0990700007175 /* GoalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4852AD0990700007175 /* GoalController.swift */; };
-		09B3C4892AD099B800007175 /* GoalModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C4872AD099B800007175 /* GoalModel.xcdatamodeld */; };
 		09B3C48B2AD09B9600007175 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3C48A2AD09B9600007175 /* AddGoalView.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +54,6 @@
 		09B3C47B2AD07C7B00007175 /* WorkoutSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryView.swift; sourceTree = "<group>"; };
 		09B3C47E2AD07D3000007175 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
 		09B3C4802AD0882B00007175 /* WorkoutSummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryCard.swift; sourceTree = "<group>"; };
-		09B3C4852AD0990700007175 /* GoalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalController.swift; sourceTree = "<group>"; };
-		09B3C4882AD099B800007175 /* GoalModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalModel.xcdatamodel; sourceTree = "<group>"; };
 		09B3C48A2AD09B9600007175 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,8 +113,6 @@
 				09B3C4582ACB512A00007175 /* WorkoutModel.xcdatamodeld */,
 				09B3C45B2ACB51E900007175 /* WorkoutController.swift */,
 				09B3C4282ACAF56C00007175 /* WorkoutIcon.swift */,
-				09B3C4872AD099B800007175 /* GoalModel.xcdatamodeld */,
-				09B3C4852AD0990700007175 /* GoalController.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -249,11 +243,9 @@
 				09B3C46A2ACF2C5D00007175 /* TabsView.swift in Sources */,
 				09B3C4272ACAF2C100007175 /* Extensions.swift in Sources */,
 				09B3C47A2AD02DAA00007175 /* TrendsChartView.swift in Sources */,
-				09B3C4892AD099B800007175 /* GoalModel.xcdatamodeld in Sources */,
 				09B3C48B2AD09B9600007175 /* AddGoalView.swift in Sources */,
 				09B3C4762ACF427600007175 /* WorkoutListView.swift in Sources */,
 				09B3C4602ACB568E00007175 /* RecentWorkoutsView.swift in Sources */,
-				09B3C4862AD0990700007175 /* GoalController.swift in Sources */,
 				09B3C4352ACB163500007175 /* DailyMinutesChart.swift in Sources */,
 				09B3C4192AC7295000007175 /* FitifyApp.swift in Sources */,
 				09B3C4702ACF30CE00007175 /* RunView.swift in Sources */,
@@ -471,16 +463,6 @@
 			);
 			currentVersion = 09B3C4592ACB512A00007175 /* WorkoutModel.xcdatamodel */;
 			path = WorkoutModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		09B3C4872AD099B800007175 /* GoalModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				09B3C4882AD099B800007175 /* GoalModel.xcdatamodel */,
-			);
-			currentVersion = 09B3C4882AD099B800007175 /* GoalModel.xcdatamodel */;
-			path = GoalModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

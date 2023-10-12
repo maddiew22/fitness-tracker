@@ -10,7 +10,6 @@ import SwiftUI
 struct TabsView: View {
     
     @StateObject private var dataController = DataController.shared
-    @StateObject private var goalController = GoalController.shared
     
     var body: some View {
         TabView {
