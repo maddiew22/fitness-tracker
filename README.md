@@ -1,1 +1,2 @@
-# fitness-tracker
+# FITLY
+Fitly is an IOS app to help you track your fitness! You can add workouts of different types and view your recent workout information. Fitly makes it easy to track your progress by helping you visualize your fitness trends with graphs that show data such as the durations of your running workouts over time. Fitly also allows you to set fitness goals for yourself and provides progress bar indicators to help you stay on track!
