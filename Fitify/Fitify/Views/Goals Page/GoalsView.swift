@@ -19,12 +19,9 @@ struct GoalsView: View {
         
         VStack(alignment: .leading, spacing: 6) {
             
-            
             VStack(alignment: .leading, spacing: 6) {
                 
-                Text("Current Goals")
-                    .font(.largeTitle)
-                    .bold()
+                TitleText(text: "Current Goals")
                 
                 Button {
                     showingAddGoalView.toggle()
@@ -40,8 +37,7 @@ struct GoalsView: View {
                         VStack(alignment: .leading) {
                             Text("\(goal.goalVal) " + goal.stat! + " of " + goal.workout! + " in \(goal.timeline) " + goal.timelineUnit!).bold()
                             ProgressView (value: calculateCurrentProgress(goal: goal))
-                            Text("\(Int(goal.progress*Double(goal.goalVal))) / \(goal.goalVal) " + goal.stat!)
-                                .font(.footnote)
+                            SubtitleText(text: "\(Int(goal.progress*Double(goal.goalVal))) / \(goal.goalVal) " + goal.stat!)
                                 .foregroundColor(Color.textColor)
                         }
                         .padding()

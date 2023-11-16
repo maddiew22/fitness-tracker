@@ -28,7 +28,7 @@ struct WorkoutListView: View {
             VStack(alignment: .leading) {
     
                 VStack {
-                    
+
                     List {
                         ForEach(workout.prefix(workoutDisplayLimit)) { workout in
                                 HStack(spacing: 20) {
@@ -71,17 +71,13 @@ struct WorkoutListView: View {
                                             .font(.subheadline)
                                             .bold()
                                             .lineLimit(1)
-                                        Text("\(workout.calories) calories")
-                                            .font(.footnote)
+                                        SubtitleText(text: "\(workout.calories) calories")
                                             .foregroundColor(Color.textColor)
-                                            .lineLimit(1)
                                     }
                                     Spacer()
                                     VStack {
-                                        Text("\(workout.duration) minutes")
-                                            .font(.footnote)
+                                        SubtitleText(text: "\(workout.duration) minutes")
                                             .opacity(0.7)
-                                            .lineLimit(1)
                                         Text("\(workout.date!, formatter: dateFormatter)")
                                             .font(.footnote)
                                             .opacity(0.7)

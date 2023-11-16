@@ -61,12 +61,6 @@ class DataController: ObservableObject {
         
         var workouts: [Entity] = []
         var progress = 0
-        
-//        let dateFormatter = DateFormatter()
-//        dateFormatter.dateFormat = "yyyy-MM-dd"
-//
-//        let start = dateFormatter.string(from: startDate)
-//        let end = dateFormatter.string(from: endDate)
 
         // Create Fetch Request
         let fetchRequest: NSFetchRequest<Entity> = Entity.fetchRequest()

@@ -14,13 +14,6 @@ struct RecentWorkoutsView: View {
     @State var workoutDisplayLimit: Int
     @State var navigationTitle: String
     
-    //should remove this
-    private let dateFormatter: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.dateStyle = .medium
-        return formatter
-    }()
-    
     var body: some View {
         NavigationView {
             VStack(alignment: .leading) {

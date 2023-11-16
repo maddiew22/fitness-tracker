@@ -20,17 +20,9 @@ struct AddWorkoutView: View {
     
     let workoutTypes = ["Boxing", "Cycle", "Dance", "HIIT", "Pilates", "Run", "Sports", "Strength Training", "Swim", "Walk", "Yoga", "Other"]
     
-    private let dateFormatter: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.dateStyle = .medium
-        return formatter
-    }()
-    
     var body: some View {
         Form {
-            Text("Add Workout")
-                .font(.title2)
-                .bold()
+            SmallerHeading(text: "Add Workout")
             Section {
                 VStack {
                     Picker ("Select Workout Type", selection: $type) {
@@ -41,7 +33,6 @@ struct AddWorkoutView: View {
                     .pickerStyle(.menu)
                 }
                 
-                
                 VStack(alignment: .leading){
                     HStack {
                         Text("Calories Burned:")
@@ -50,10 +41,9 @@ struct AddWorkoutView: View {
                     }
                 }
                 
-                
                 VStack(alignment: .leading) {
                     HStack {
-                        Text("Duration:")
+                        Text("Duration (Minutes):")
                         TextField("Enter", value: $duration, format: .number)
                             .opacity(0.7)
                     }

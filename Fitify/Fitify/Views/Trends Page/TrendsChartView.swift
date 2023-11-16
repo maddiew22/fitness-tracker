@@ -14,6 +14,10 @@ struct TrendsChartView: View {
     @FetchRequest(sortDescriptors: [SortDescriptor(\.date, order: .reverse)]) var workout: FetchedResults<Entity>
     
     @State var workoutType: String
+    
+    var viewModel: ChartsViewModel {
+        ChartsViewModel(workout:workout)
+    }
 
     var body: some View {
         VStack {
@@ -27,7 +31,7 @@ struct TrendsChartView: View {
             VStack {
                 
                 Chart {
-                    ForEach(findLast7WorkoutsOfType(workoutType: workoutType)) { item in
+                    ForEach(viewModel.findLast7WorkoutsOfType(workoutType: workoutType)) { item in
                         LineMark(x: .value(workoutType, "\(item.id)"), y: .value("Calories", item.calories))
                     }
                 }
@@ -56,7 +60,7 @@ struct TrendsChartView: View {
             VStack {
                 
                 Chart {
-                    ForEach(findLast7WorkoutsOfType(workoutType: workoutType)) { item in
+                    ForEach(viewModel.findLast7WorkoutsOfType(workoutType: workoutType)) { item in
                         LineMark(x: .value(workoutType, "\(item.id)"), y: .value("Calories", item.duration))
                     }
                 }
@@ -73,19 +77,6 @@ struct TrendsChartView: View {
             .shadow(color: .primary.opacity(0.2), radius: 10, x: 0, y: 5)
         }
         .padding()
-    }
-    
-    private func findLast7WorkoutsOfType(workoutType: String) -> [Entity] {
-        var workouts : [Entity] = []
-        for item in workout {
-            if item.type == workoutType {
-                if workouts.count < 8 {
-                    workouts.append(item)
-                }
-                
-            }
-        }
-        return workouts.reversed()
     }
 
 }

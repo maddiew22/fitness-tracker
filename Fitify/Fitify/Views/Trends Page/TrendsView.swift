@@ -15,10 +15,7 @@ struct TrendsView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("Trends")
-                    .font(.largeTitle)
-                    .bold()
-                    .padding()
+                TitleText(text: "Trends")
                 HStack {
                     Button("Runs") {
                         showRunTrends = true
@@ -49,22 +46,15 @@ struct TrendsView: View {
                     .clipShape(Capsule())
                 }
                 if showRunTrends {
-                    RunView()
+                    WorkoutTrendView(iconName: "figure.run", title: "Running", workoutType: "Run")
                 }
                 if showWalkTrends {
-                    WalkView()
+                    WorkoutTrendView(iconName: "figure.walk", title: "Walking", workoutType: "Walk")
                 }
                 if showStrengthTrends {
-                    StrengthTrainingView()
+                    WorkoutTrendView(iconName: "figure.strengthtraining.traditional", title: "Strength Training", workoutType: "Strength Training")
                 }
             }
-            //WalkView()
-            
-            
-            
-            
-            
-            //StrengthTrainingView()
             
         }
 

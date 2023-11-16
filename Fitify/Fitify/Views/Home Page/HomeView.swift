@@ -11,10 +11,8 @@ struct HomeView: View {
     var body: some View {
         VStack {
             
-            Text("Daily Workout Minutes")
-                .font(.title2)
+            SmallerHeading(text: "Daily Workout Minutes")
                 .foregroundColor(Color.textColor)
-                .bold()
             Text("Over the past 7 days")
                 .font(.title3)
                 .bold()

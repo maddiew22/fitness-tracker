@@ -27,9 +27,7 @@ struct AddGoalView: View {
     var body: some View {
         Form {
             Section {
-                Text("Add Goal")
-                    .font(.title2)
-                    .bold()
+                SmallerHeading(text: "Add Goal")
                 VStack {
                     Picker ("Select Workout Type", selection: $workout) {
                         ForEach(workoutTypes, id: \.self) {
